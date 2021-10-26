@@ -7,29 +7,73 @@
     <title>Rock, Paper, Scissors Game</title>
 </head>
 <body>
+    <div class="heading-page">
     
+        <h1>Rock, Paper, Scissors</h1>
+    
+    </div>
     <div class="score-area">
         <div class="user-info">
+
+            <p><i class="fas fa-user-astronaut"></i>You</p>
             
+            <div class="user-life">
+                <p><i class="fas fa-heart"></i><i class="fas fa-heart"></i><i class="fas fa-heart"></i></p>
+            </div>
+            <div class="user-score">
+                <p><span id="user-score">0</span></p>
+            </div>
+
         </div>
         <div class="computer-info">
+
+            <p><i class="fas fa-robot"></i>Computer</p>
+
+            <div class="computer-life">
+                <p><i class="fas fa-heart"></i><i class="fas fa-heart"></i><i class="fas fa-heart"></i></p>
+            </div>
+            <div class="computer-score">
+                <p><span id="computer-score">0</span></p>
+            </div>
 
         </div>
     </div>
 
     <div class="game-area">
         <div class="user-choice-area">
-
+            <button data-type="rock" class="">
+                <i class="fas fa-meteor"></i>
+            </button>
+            <p>Rock</p>
+            <button data-type="paper" class="">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+            <p>Paper</p>
+            <button data-type="scissors" class="">
+                <i class="fas fa-fan"></i>
+            </button>
+            <p>Scissors</p>
         </div>
         <div class="result-area">
-
+            <h3>result-area</h3>
         </div>
         <div class="computer-choice-area">
-
+            <button data-type="rock" class="">
+                <i class="fas fa-meteor"></i>
+            </button>
+            <p>Rock</p>
+            <button data-type="paper" class="">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+            <p>Paper</p>
+            <button data-type="scissors" class="">
+                <i class="fas fa-fan"></i>
+            </button>
+            <p>Scissors</p>
         </div>
     </div>
 
 
-
+    <script src="https://kit.fontawesome.com/bb09779c85.js" crossorigin="anonymous"></script>
 </body>
 </html>
