@@ -28,10 +28,13 @@ body {
     width: 550px;
     height: 50px;
     border: 1px solid #33393F;
+    border-radius: 15px;
 }
 
 .user-info p {
     display: inline-block;
+    float: left;
+    padding-left: 50px;
 }
 
 .computer-info {
@@ -39,10 +42,10 @@ body {
     width: 550px;
     height: 50px;
     border: 1px solid #33393F;
+    border-radius: 15px;
 }
 
 .computer-info p {
-    
     display: inline-block;
 }
 
@@ -63,4 +66,75 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
+}
+
+.user-choice-area {
+    padding-top: 50px;
+    width: 33%;
+    float: left;
+}
+
+.result-area {
+    width: 33%;
+    margin: 0 auto;
+    padding-top: 200px;
+    position: absolute;
+    padding-left: 420px;
+}
+
+.computer-choice-area {
+    padding-top: 50px;
+    width: 33%;
+    float: right;
+    
+}
+
+
+/* --------- Logos */
+
+.fa-user-astronaut {
+ font-size: 4rem;
+}
+
+.fa-robot {
+    font-size: 4rem;
+}
+
+.fa-heart {
+    font-size: 1.5rem;
+    color: tomato;
+    padding: 3px;
+}
+
+.fa-meteor {
+    font-size: 6rem;
+    color: wheat;
+}
+
+.fa-meteor:hover {
+    color: tomato;
+}
+
+.fa-paper-plane {
+    font-size: 6rem;
+    color: wheat;
+}
+
+.fa-paper-plane:hover {
+    color: tomato;
+}
+
+.fa-fan {
+    font-size: 6rem;
+    color: wheat;
+}
+
+.fa-fan:hover {
+    color: tomato;
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
 }
