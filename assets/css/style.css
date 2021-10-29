@@ -25,6 +25,7 @@ body {
     height: 90px;
     border: 1px solid #33393F;
     border-radius: 15px;
+    margin-right: 180px;
 }
 
 .user-info p {
@@ -89,18 +90,17 @@ body {
     padding: 1%;
 }
 
+.result-area {
+    width: 33%;
+    margin: 0 auto;
+    padding-top: 120px;
+    display: inline-block
+}
+
 .user-choice-area {
     padding-top: 50px;
     width: 33%;
     float: left;
-}
-
-.result-area {
-    width: 33%;
-    margin: 0 auto;
-    padding-top: 200px;
-    position: absolute;
-    padding-left: 420px;
 }
 
 .computer-choice-area {
