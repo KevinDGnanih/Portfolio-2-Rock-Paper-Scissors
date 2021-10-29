@@ -97,6 +97,10 @@ body {
     display: inline-block
 }
 
+.result-area h3 {
+    font-size: 5rem;
+}
+
 .user-choice-area {
     padding-top: 50px;
     width: 33%;
