@@ -25,8 +25,11 @@ body {
     width: 450px;
     height: 90px;
     border: 1px solid #33393F;
+    border-bottom: 2px solid tomato;
     border-radius: 15px;
     margin-right: 180px;
+    box-shadow: 2px 5px 20px #cccbcb;
+
 }
 
 .user-info p {
@@ -51,6 +54,7 @@ body {
     height: 90px;
     border: 1px solid #33393F;
     border-radius: 15px;
+    box-shadow: 2px 5px 20px #cccbcb;
     
 }
 
