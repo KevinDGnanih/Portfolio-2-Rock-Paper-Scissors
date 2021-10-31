@@ -90,6 +90,10 @@ body {
     padding: 1%;
 }
 
+.game-area h1 {
+    font-size: 50px;
+}
+/*
 .result-area {
     width: 33%;
     margin: 0 auto;
@@ -100,20 +104,25 @@ body {
 .result-area h3 {
     font-size: 5rem;
 }
-
+*/
 .user-choice-area {
-    padding-top: 50px;
-    width: 33%;
-    float: left;
+    padding-top: 120px;
+    padding-right: 100px;
 }
 
+.user-choice-area button {
+    display: inline;
+    padding-left: 85px;
+}
+
+/*
 .computer-choice-area {
     padding-top: 50px;
     width: 33%;
     float: right;
     
 }
-
+*/
 
 /* --------- Logos */
 
@@ -138,6 +147,7 @@ body {
 
 .fa-meteor:hover {
     color: tomato;
+    transform: scale(1.5,1.5);
 }
 
 .fa-paper-plane {
@@ -147,6 +157,8 @@ body {
 
 .fa-paper-plane:hover {
     color: tomato;
+    transform: scale(1.5,1.5);
+    
 }
 
 .fa-fan {
@@ -156,6 +168,7 @@ body {
 
 .fa-fan:hover {
     color: tomato;
+    transform: scale(1.5,1.5);
 }
 
 
