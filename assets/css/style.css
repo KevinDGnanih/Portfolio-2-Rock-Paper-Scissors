@@ -99,9 +99,9 @@ body {
 }
 
 .result-area {
-    width: 33%;
+    width: 10%;
     margin: 0 auto;
-    padding-top: 60px;
+    padding-top: 65px;
     display: inline-block
 }
 
@@ -112,6 +112,7 @@ body {
 .user-choice-area {
     
     padding-top: 120px;
+    padding-left: 90px;
     width: 33%;
     float: left;
 }
@@ -125,6 +126,7 @@ body {
 
 .computer-choice-area {
     padding-top: 120px;
+    padding-right: 90px;
     width: 33%;
     float: right;
     
@@ -176,6 +178,11 @@ body {
 .fa-fan:hover {
     color: tomato;
     transform: scale(1.5,1.5);
+}
+
+.fa-question-circle {
+    font-size: 6rem;
+    color: wheat;
 }
 
 
