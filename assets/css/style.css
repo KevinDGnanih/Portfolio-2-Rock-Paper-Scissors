@@ -97,36 +97,39 @@ body {
 .game-area h1 {
     font-size: 50px;
 }
-/*
+
 .result-area {
     width: 33%;
     margin: 0 auto;
-    padding-top: 120px;
+    padding-top: 60px;
     display: inline-block
 }
 
 .result-area h3 {
     font-size: 5rem;
 }
-*/
+
 .user-choice-area {
+    
     padding-top: 120px;
-    padding-right: 100px;
+    width: 33%;
+    float: left;
 }
 
+/*
 .user-choice-area button {
     display: inline;
     padding-left: 85px;
 }
+*/
 
-/*
 .computer-choice-area {
-    padding-top: 50px;
+    padding-top: 120px;
     width: 33%;
     float: right;
     
 }
-*/
+
 
 /* --------- Logos */
 

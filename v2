@@ -31,36 +31,20 @@
     </div>
 
     <div class="game-area">
+        <h1>Choose:</h1>
+
         <div class="user-choice-area">
-            <button data-type="rock" class="">
+            <button aria-label="Rock" data-choice="rock" class="choice">
                 <i class="fas fa-meteor"></i>
             </button>
-            <p>Rock</p>
-            <button data-type="paper" class="">
+            
+            <button aria-label="Paper" data-choice="paper" class="choice">
                 <i class="fas fa-paper-plane"></i>
             </button>
-            <p>Paper</p>
-            <button data-type="scissors" class="">
+            
+            <button aria-label="Scissors" data-choice="scissors" class="choice">
                 <i class="fas fa-fan"></i>
             </button>
-            <p>Scissors</p>
-        </div>
-        <div class="result-area">
-            <h3 class="result-area">-</h3>
-        </div>
-        <div class="computer-choice-area">
-            <button data-type="rock" class="">
-                <i class="fas fa-meteor"></i>
-            </button>
-            <p>Rock</p>
-            <button data-type="paper" class="">
-                <i class="fas fa-paper-plane"></i>
-            </button>
-            <p>Paper</p>
-            <button data-type="scissors" class="">
-                <i class="fas fa-fan"></i>
-            </button>
-            <p>Scissors</p>
         </div>
     </div>
     
