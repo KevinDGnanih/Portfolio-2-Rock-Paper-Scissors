@@ -25,5 +25,9 @@ for (let button of buttons) {
  */
 function runGame(userChoice) {
 
-    userChoice = choices[userChoice]
+    let choices = ["rock", "paper", "scissors"];
+    let num = Math.floor(Math.random()) * 3;
+
+    document.getElementById("user-choice-area").innerHTML = "<i>${class="fas"}</i>";
+
 }
