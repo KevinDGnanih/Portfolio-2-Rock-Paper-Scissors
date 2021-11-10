@@ -28,6 +28,8 @@ function runGame(userChoice) {
     let choices = ["rock", "paper", "scissors"];
     let num = Math.floor(Math.random()) * 3;
 
-    document.getElementById("user-choice-area").innerHTML = "<i>${class="fas"}</i>";
+    let userselected = ()
+    document.getElementsByClassName("computer-choice-area").innerHTML = "coucou";
+    document.getElementById("user-choice-area").innerHTML = ;
 
 }
