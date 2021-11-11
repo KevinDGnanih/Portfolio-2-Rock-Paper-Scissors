@@ -36,16 +36,16 @@
             <h1>Make your choice:</h1>
 
             <div class="user-choice-area" id="user-choice-area">
-                <button onclick="runGame(userChoice)" aria-label="Rock" data-choice="rock" class="choice">
-                    <i class="fas fa-meteor choice"></i>
+                <button aria-label="Rock" data-choice="rock" class="choice">
+                    <i id="rock"class="fas fa-meteor"></i>
                 </button>
                 
                 <button aria-label="Paper" data-choice="paper" class="choice">
-                    <i class="fas fa-paper-plane"></i>
+                    <i id="paper" class="fas fa-paper-plane"></i>
                 </button>
                 
                 <button aria-label="Scissors" data-choice="scissors" class="choice">
-                    <i class="fas fa-fan"></i>
+                    <i id="scissors"class="fas fa-fan"></i>
                 </button>
             </div>
             <div class="result-area" id="result-area">
@@ -59,7 +59,9 @@
             </div>
         </div>
     </div>
-    
+    <div class="message">
+        <h2></h2>
+    </div>
     <footer>
         <h3>KDG 2021</h3>
     </footer>

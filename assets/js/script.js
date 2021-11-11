@@ -5,9 +5,8 @@
 const buttons = document.getElementsByClassName("choice");
 const userScore = document.getElementById("user-score");
 const computerScore = document.getElementById("computer-score");
-const userChoice = document.getElementById("game-area");
-const userSign = document.getElementById("user-choice-area");
-const computerSign = document.getElementById("computer-choice-area");
+const userChoice = document.getElementById("user-choice-area");
+const computerChoice = document.getElementById("computer-choice-area");
 const messages = document.getElementById("messages");
 const choices = ["rock", "paper" , "scissors"];
 
@@ -15,7 +14,7 @@ const choices = ["rock", "paper" , "scissors"];
  * Add event listener to all the buttons
  */
 for (let button of buttons) {
-    button.addEventListener('click', function(){
+    button.addEventListener('click', function(e){
         let userChoice = this.getAttribute("data-choice");
         runGame(userChoice);
     });
@@ -27,25 +26,12 @@ for (let button of buttons) {
  */
 function runGame(userChoice) {
 
-    userSign.src = `${choices[userChoice]}`;
-    userSign.alt = choices[userChoice];
-
-    let computerChoice = Math.floor(Math.random() * 3);
-
-    /*let result = checkWinner(choices[computerChoice], choices[userChoice]);*/
-
-    /*updateScore(result);*/
-
+    let num = Math.floor(Math.random() * 3);
+    console.log(num);
+    
 }
 
-/**
- * Determinate the winner
- */
-let result = document.getElementById("result-area");
-const rule = {
-    rock: ["scissors"],
 
-    paper: ["rock"],
 
-    scissors: ["paper"],
-};
+
+

@@ -84,7 +84,7 @@ body {
 /* --------- Game layout */
 
 .game-area {
-    background-color: #80B59B;
+    
     box-sizing: border-box;
     width: 100%;
     height: 65vh;
@@ -104,6 +104,7 @@ body {
     box-shadow: 2px 5px 20px #cccbcb;
     display: flow-root;
     position: absolute;
+    background-color: #80B59B;
     
 }
 
@@ -204,6 +205,14 @@ body {
 button {
     border: none;
     background-color: transparent;
+}
+
+/* --------- Message */
+
+.message {
+
+    background-color: tomato;
+    position: relative;
 }
 
 /* --------- Footer */
