@@ -59,12 +59,18 @@ function runGame(userChoice) {
 
     switch(rule[userChoice][computerSign]) {
         case ('win'):
+            result.style.cssText = 
+            "color: gold;";
             result.innerHTML = 'You WIN';
             break;
         case ('lose'):
+            result.style.cssText = 
+            "color: tomato;";
             result.innerHTML = 'You LOSE';
             break;
         default:
+            result.style.cssText = 
+            "color: #445361;";
             result.innerHTML = "It's a DRAW";
             break;
         }
