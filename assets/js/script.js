@@ -28,7 +28,10 @@ function runGame(userChoice) {
 
     let num = Math.floor(Math.random() * 3);
 
-    document.getElementById("message").innerHTML = `<h2>Computer choice <span>${computerChoice}</span></h2>`;
+    document.getElementById("message").innerHTML = 
+    `<h2>Your choice is <span>${userChoice}</span></h2>`;
+    document.getElementById("message").innerHTML = 
+    `<h2>Computer choice is <span>${computerChoice}</span></h2>`;
     console.log(num);
 
     if (num === 0) {
@@ -40,6 +43,7 @@ function runGame(userChoice) {
     if (num === 2) {
         computerChoice = 'scissors'
     }
+    
     
 }
 
