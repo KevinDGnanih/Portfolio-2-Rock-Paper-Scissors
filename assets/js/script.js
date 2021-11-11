@@ -7,6 +7,10 @@ const userScore = document.getElementById("user-score");
 const computerScore = document.getElementById("computer-score");
 const userChoice = document.getElementById("user-choice-area");
 const computerChoice = document.getElementById("computer-choice-area");
+const userChoiceDisplay = document.getElementById("message");
+const computerChoiceDisplay = document.getElementById("message");
+let computerMsg;
+let userMsg;
 const messages = document.getElementById("messages");
 const choices = ["rock", "paper" , "scissors"];
 
@@ -29,11 +33,8 @@ function runGame(userChoice) {
     let num = Math.floor(Math.random() * 3);
 
     document.getElementById("message").innerHTML = 
-    `<h2>Your choice is <span>${userChoice}</span></h2>`;
-    document.getElementById("message").innerHTML = 
     `<h2>Computer choice is <span>${computerChoice}</span></h2>`;
-    console.log(num);
-
+    
     if (num === 0) {
         computerChoice = 'rock'
     }
@@ -43,7 +44,8 @@ function runGame(userChoice) {
     if (num === 2) {
         computerChoice = 'scissors'
     }
-    
+    console.log(num);
+    computerChoiceDisplay.innerHTML = computerChoice;
     
 }
 
