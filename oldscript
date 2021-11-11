@@ -7,12 +7,12 @@ const userScore = document.getElementById("user-score");
 const computerScore = document.getElementById("computer-score");
 const userChoice = document.getElementById("user-choice-area");
 const computerChoice = document.getElementById("computer-choice-area");
-const userChoiceDisplay = document.getElementById("");
-const computerChoiceDisplay = document.getElementById("");
+const userChoiceDisplay = document.getElementById("message");
+const computerChoiceDisplay = document.getElementById("message");
 let computerMsg;
 let userMsg;
 const messages = document.getElementById("messages");
-const choices = ["Rock", "Paper" , "Scissors"];
+const choices = ["rock", "paper" , "scissors"];
 
 /**
  * Add event listener to all the buttons
@@ -30,20 +30,14 @@ for (let button of buttons) {
  */
 function runGame(userChoice) {
 
-    document.getElementById("message-user").innerHTML =
-    `<h2>You choose <span>${userChoice}</span></h2>`;
-
     const num = Math.floor(Math.random() * 3);
 
-    
-    document.getElementById("message-computer").innerHTML = 
-    `<h2>Computer choice is <span>${choices[num]}</span></h2>`;
-
-    
+    document.getElementById("message").innerHTML = 
+    `<h2>Computer choice is <span>${computerChoice}</span></h2>`;
     
    
-    /*console.log(num);
-    computerChoiceDisplay.innerHTML = computerChoice;*/
+    console.log(num);
+    computerChoiceDisplay.innerHTML = computerChoice;
     
 }
 
