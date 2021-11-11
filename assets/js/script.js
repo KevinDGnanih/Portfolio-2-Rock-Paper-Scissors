@@ -27,7 +27,19 @@ for (let button of buttons) {
 function runGame(userChoice) {
 
     let num = Math.floor(Math.random() * 3);
+
+    document.getElementById("message").innerHTML = `<h2>Computer choice <span>${computerChoice}</span></h2>`;
     console.log(num);
+
+    if (num === 0) {
+        computerChoice = 'rock'
+    }
+    if (num === 1) {
+        computerChoice = 'paper'
+    }
+    if (num === 2) {
+        computerChoice = 'scissors'
+    }
     
 }
 
