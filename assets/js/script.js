@@ -7,13 +7,13 @@ const userScore = document.getElementById("user-score");
 const computerScore = document.getElementById("computer-score");
 const userChoice = document.getElementById("user-choice-area");
 const computerChoice = document.getElementById("computer-choice-area");
-const userChoiceDisplay = document.createElement("");
-const computerChoiceDisplay = document.createElement("");
+/**const userChoiceDisplay = document.createElement("");
+const computerChoiceDisplay = document.createElement("");*/
 const messages = document.getElementById("messages");
 const choices = ["Rock", "Paper" , "Scissors"];
 
 
-let result = document.getElementBy("result");
+let result = document.getElementById("result-msg");
 let rule = {
     'Rock' : {
         'Rock' : 'draw',
@@ -29,7 +29,7 @@ let rule = {
         'Rock' : 'win',
         'Scissors' : 'lose',
         'Paper' : 'draw',
-    },
+    }
 }
 
 /**
@@ -55,6 +55,19 @@ function runGame(userChoice) {
     document.getElementById("message-computer").innerHTML = 
     `<h2>Computer choice is <span>${choices[num]}</span></h2>`;
  
+    let computerSign = choices[num];
+
+    switch(rule[userChoice][computerSign]) {
+        case ('win'):
+            result.innerHTML = 'You WIN';
+            break;
+        case ('lose'):
+            result.innerHTML = 'You LOSE';
+            break;
+        default:
+            result.innerHTML = "It's a DRAW";
+            break;
+        }
     
 }
 
