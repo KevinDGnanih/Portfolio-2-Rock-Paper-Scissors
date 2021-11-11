@@ -2,10 +2,12 @@
 // Possible choices
 // Get the button elements and event listeners to them
 
-const buttons = document.getElementsByClassName("user-choice-area");
+const buttons = document.getElementsByClassName("choice");
 const userScore = document.getElementById("user-score");
 const computerScore = document.getElementById("computer-score");
 const userChoice = document.getElementById("game-area");
+const userSign = document.getElementById("user-choice-area");
+const computerSign = document.getElementById("computer-choice-area");
 const messages = document.getElementById("messages");
 const choices = ["rock", "paper" , "scissors"];
 
@@ -25,11 +27,25 @@ for (let button of buttons) {
  */
 function runGame(userChoice) {
 
-    let choices = ["rock", "paper", "scissors"];
-    let num = Math.floor(Math.random()) * 3;
+    userSign.src = `${choices[userChoice]}`;
+    userSign.alt = choices[userChoice];
 
-    let userselected = ()
-    document.getElementsByClassName("computer-choice-area").innerHTML = "coucou";
-    document.getElementById("user-choice-area").innerHTML = ;
+    let computerChoice = Math.floor(Math.random() * 3);
+
+    /*let result = checkWinner(choices[computerChoice], choices[userChoice]);*/
+
+    /*updateScore(result);*/
 
 }
+
+/**
+ * Determinate the winner
+ */
+let result = document.getElementById("result-area");
+const rule = {
+    rock: ["scissors"],
+
+    paper: ["rock"],
+
+    scissors: ["paper"],
+};
