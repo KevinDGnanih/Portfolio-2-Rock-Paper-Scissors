@@ -60,17 +60,32 @@ function runGame(userChoice) {
     switch(rule[userChoice][computerSign]) {
         case ('win'):
             result.style.cssText = 
-            "color: gold;";
+            `color: gold;
+            background-color: #69f66963; 
+            border-radius: inherit; 
+            width: 180px; 
+            padding: 2px 0; 
+            margin: 30px auto;`;
             result.innerHTML = 'You WIN';
             break;
         case ('lose'):
             result.style.cssText = 
-            "color: tomato;";
+            `background-color: #f09e90a3;
+            color: tomato;
+            border-radius: inherit; 
+            width: 180px; 
+            padding: 2px 0; 
+            margin: 30px auto;`;
             result.innerHTML = 'You LOSE';
             break;
         default:
             result.style.cssText = 
-            "color: #445361;";
+            `color: #445361;
+            background-color: wheat;
+            border-radius: inherit; 
+            width: 180px; 
+            padding: 2px 0; 
+            margin: 30px auto;`;
             result.innerHTML = "It's a DRAW";
             break;
         }
