@@ -60,8 +60,8 @@ function runGame(userChoice) {
     switch(rule[userChoice][computerSign]) {
         case ('win'):
             result.style.cssText = 
-            `color: gold;
-            background-color: #69f66963; 
+            `color: rgb(68, 83, 97);
+            background-color: yellowgreen; 
             border-radius: inherit; 
             width: 180px; 
             padding: 2px 0; 
@@ -70,8 +70,8 @@ function runGame(userChoice) {
             break;
         case ('lose'):
             result.style.cssText = 
-            `background-color: #f09e90a3;
-            color: tomato;
+            `background-color: tomato;
+            color: rgb(68, 83, 97);
             border-radius: inherit; 
             width: 180px; 
             padding: 2px 0; 
@@ -80,7 +80,7 @@ function runGame(userChoice) {
             break;
         default:
             result.style.cssText = 
-            `color: #445361;
+            `color: rgb(68, 83, 97);
             background-color: wheat;
             border-radius: inherit; 
             width: 180px; 
