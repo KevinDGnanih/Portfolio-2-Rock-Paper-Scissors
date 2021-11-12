@@ -67,6 +67,7 @@ function runGame(userChoice) {
             padding: 2px 0; 
             margin: 30px auto;`;
             result.innerHTML = 'You WIN';
+            incrementUserScore();
             break;
         case ('lose'):
             result.style.cssText = 
@@ -77,6 +78,7 @@ function runGame(userChoice) {
             padding: 2px 0; 
             margin: 30px auto;`;
             result.innerHTML = 'You LOSE';
+            incrementComputerScore()
             break;
         default:
             result.style.cssText = 
@@ -90,6 +92,17 @@ function runGame(userChoice) {
             break;
         }
     
+}
+
+
+function incrementUserScore() {
+    let oldScore = parseInt(document.getElementById("user-score").innerHTML);
+    document.getElementById("user-score").innerHTML = ++oldScore;
+}
+
+function incrementComputerScore() {
+    let oldScore = parseInt(document.getElementById("computer-score").innerHTML);
+    document.getElementById("computer-score").innerHTML = ++oldScore;
 }
 
 
