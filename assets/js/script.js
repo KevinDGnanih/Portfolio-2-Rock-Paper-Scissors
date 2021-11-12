@@ -3,8 +3,8 @@
 // Get the button elements and event listeners to them
 
 const buttons = document.getElementsByClassName("choice");
-const userScore = document.getElementById("user-score");
-const computerScore = document.getElementById("computer-score");
+const userScore = document.getElementById("user-score-span");
+const computerScore = document.getElementById("computer-score-span");
 const userChoice = document.getElementById("user-choice-area");
 const computerChoice = document.getElementById("computer-choice-area");
 /**const userChoiceDisplay = document.createElement("");
@@ -96,13 +96,13 @@ function runGame(userChoice) {
 
 
 function incrementUserScore() {
-    let oldScore = parseInt(document.getElementById("user-score").innerHTML);
-    document.getElementById("user-score").innerHTML = ++oldScore;
+    let oldScore = parseInt(document.getElementById("user-score-span").innerHTML);
+    document.getElementById("user-score-span").innerHTML = ++oldScore;
 }
 
 function incrementComputerScore() {
-    let oldScore = parseInt(document.getElementById("computer-score").innerHTML);
-    document.getElementById("computer-score").innerHTML = ++oldScore;
+    let oldScore = parseInt(document.getElementById("computer-score-span").innerHTML);
+    document.getElementById("computer-score-span").innerHTML = ++oldScore;
 }
 
 
