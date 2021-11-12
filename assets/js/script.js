@@ -48,12 +48,12 @@ for (let button of buttons) {
 function runGame(userChoice) {
 
     document.getElementById("message-user").innerHTML =
-    `<h2>You choose <span>${userChoice}</span></h2>`;
+    `<h2 id="msg-user">You choose <span>${userChoice}</span></h2>`;
 
     const num = Math.floor(Math.random() * 3);
     
     document.getElementById("message-computer").innerHTML = 
-    `<h2>Computer choice is <span>${choices[num]}</span></h2>`;
+    `<h2 id="msg-computer">Computer choice is <span>${choices[num]}</span></h2>`;
  
     let computerSign = choices[num];
 
