@@ -58,9 +58,6 @@ function runGame(userChoice) {
 
     let computerSign = choices[num];
 
-    /*document.getElementById("computer-choice-area").innerHTML =
-    `<p><i>${computerSignsDisplay[num]}/${computerSign}</i></p>`;*/
-
     switch(rule[userChoice][computerSign]) {
         case ('win'):
             result.style.cssText = 
@@ -93,21 +90,6 @@ function runGame(userChoice) {
             padding: 2px 0; 
             margin: 30px auto;`;
             result.innerHTML = "It's a DRAW";
-            break;
-    }
-
-    switch([computerChoice]) {
-        case ('Rock'):
-            computerSignsDisplay.innerHTML = 
-            `<p><i class="fas fa-meteor"></i></p>`;
-            break;
-        case ('Paper'):
-            computerSignsDisplay.innerHTML = 
-            `<p><i class="fas fa-paper-plane"></i></p>`;
-            break;
-        default:
-            computerSignsDisplay.innerHTML = 
-            `<p><i class="fas fa-fan"></i></p>`;
             break;
     }
     
