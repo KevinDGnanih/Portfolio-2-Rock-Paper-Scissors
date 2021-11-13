@@ -112,11 +112,9 @@ body {
     font-size: 2rem;
 }
 
-.result-area {
-    width: 10%;
+#result-area {
     margin: 0 auto;
-    padding-top: 45px;
-    display: inline-block
+    display: inline-block;
 }
 
 .result-area h3 {
@@ -125,12 +123,21 @@ body {
 
 .user-choice-area {
     
-    padding-top: 80px;
+    padding-top: 65px;
     padding-left: 90px;
     padding-bottom: 90px;
     width: 33%;
     float: left;
     letter-spacing: 30px;
+}
+
+#result-msg {
+    color: #80B59B;
+    background-color: #80B59B; 
+    border-radius: inherit; 
+    width: 180px; 
+    padding: 2px 0; 
+    margin: 30px auto;
 }
 
 /*
@@ -141,7 +148,7 @@ body {
 */
 
 .computer-choice-area {
-    padding-top: 70px;
+    padding-top: 55px;
     padding-right: 90px;
     width: 33%;
     float: right;
