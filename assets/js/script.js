@@ -58,6 +58,8 @@ function runGame(userChoice) {
 
     let computerSign = choices[num];
 
+
+
     switch(rule[userChoice][computerSign]) {
         case ('win'):
             result.style.cssText = 
@@ -94,6 +96,7 @@ function runGame(userChoice) {
     }
     
 }
+
 
 function incrementUserScore() {
     let oldScore = parseInt(document.getElementById("user-score-span").innerHTML);
