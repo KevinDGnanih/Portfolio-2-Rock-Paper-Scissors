@@ -7,6 +7,7 @@ const userScore = document.getElementById("user-score-span");
 const computerScore = document.getElementById("computer-score-span");
 const userChoice = document.getElementById("user-choice-area");
 const computerChoice = document.getElementById("computer-choice-area");
+const computerSignsDisplay = document.getElementById("computer-sign");
 /**const userChoiceDisplay = document.createElement("");
 const computerChoiceDisplay = document.createElement("");*/
 const messages = document.getElementById("messages");
@@ -54,8 +55,11 @@ function runGame(userChoice) {
     
     document.getElementById("message-computer").innerHTML = 
     `<h2 id="msg-computer">Computer choice is <span>${choices[num]}</span></h2>`;
- 
+
     let computerSign = choices[num];
+
+    /*document.getElementById("computer-choice-area").innerHTML =
+    `<p><i>${computerSignsDisplay[num]}/${computerSign}</i></p>`;*/
 
     switch(rule[userChoice][computerSign]) {
         case ('win'):
@@ -90,10 +94,24 @@ function runGame(userChoice) {
             margin: 30px auto;`;
             result.innerHTML = "It's a DRAW";
             break;
-        }
+    }
+
+    switch([computerChoice]) {
+        case ('Rock'):
+            computerSignsDisplay.innerHTML = 
+            `<p><i class="fas fa-meteor"></i></p>`;
+            break;
+        case ('Paper'):
+            computerSignsDisplay.innerHTML = 
+            `<p><i class="fas fa-paper-plane"></i></p>`;
+            break;
+        default:
+            computerSignsDisplay.innerHTML = 
+            `<p><i class="fas fa-fan"></i></p>`;
+            break;
+    }
     
 }
-
 
 function incrementUserScore() {
     let oldScore = parseInt(document.getElementById("user-score-span").innerHTML);
