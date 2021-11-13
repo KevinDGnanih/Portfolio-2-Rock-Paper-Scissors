@@ -14,6 +14,7 @@ const messages = document.getElementById("messages");
 const choices = ["Rock", "Paper" , "Scissors"];
 
 
+//Setting the rule of the game and the result variable
 let result = document.getElementById("result-msg");
 let rule = {
     'Rock' : {
@@ -57,9 +58,16 @@ function runGame(userChoice) {
     `<h2 id="msg-computer">Computer choice is <span>${choices[num]}</span></h2>`;
 
     let computerSign = choices[num];
+    
+    if (computerSign == 'Rock') {
+        computerSignsDisplay.innerHTML = `<i id="rock"class="fas fa-meteor"></i>`;
+    } else if (computerSign == 'Paper') {
+        computerSignsDisplay.innerHTML = `<i id="paper" class="fas fa-paper-plane"></i>`;
+    } else if (computerSign == 'Scissors') {
+        computerSignsDisplay.innerHTML = `<i id="scissors"class="fas fa-fan"></i>`;
+    }
 
-
-
+    
     switch(rule[userChoice][computerSign]) {
         case ('win'):
             result.style.cssText = 
@@ -94,7 +102,7 @@ function runGame(userChoice) {
             result.innerHTML = "It's a DRAW";
             break;
     }
-    
+
 }
 
 
