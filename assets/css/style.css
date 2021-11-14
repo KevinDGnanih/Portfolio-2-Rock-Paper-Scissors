@@ -87,6 +87,29 @@ body {
     padding: 15px auto;
     
 }
+
+#reset-btn {
+    
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: tomato;
+    color: black;
+    font-weight: 700;
+    padding: 8px;
+    box-shadow: 2px 5px 20px #cccbcb;
+}
+
+#reset-btn:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    color: tomato;
+    font-weight: 700;
+    padding: 8px;
+    box-shadow: 2px 5px 20px #cccbcb;
+}
+
 /* --------- Game layout */
 
 .game-area {
@@ -184,6 +207,7 @@ body {
 }
 
 .fa-meteor:hover {
+    cursor: pointer;
     color: tomato;
     transform: scale(1.5,1.5);
 }
@@ -194,6 +218,7 @@ body {
 }
 
 .fa-paper-plane:hover {
+    cursor: pointer;
     color: tomato;
     transform: scale(1.5,1.5);
     
@@ -205,6 +230,7 @@ body {
 }
 
 .fa-fan:hover {
+    cursor: pointer;
     color: tomato;
     transform: scale(1.5,1.5);
 }
