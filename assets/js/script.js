@@ -60,11 +60,11 @@ function runGame(userChoice) {
     let computerSign = choices[num];
     
     if (computerSign == 'Rock') {
-        computerSignsDisplay.innerHTML = `<i id="rock"class="fas fa-meteor"></i>`;
+        computerSignsDisplay.innerHTML = `<i aria-label="Rock" id="rock"class="fas fa-meteor"></i>`;
     } else if (computerSign == 'Paper') {
-        computerSignsDisplay.innerHTML = `<i id="paper" class="fas fa-paper-plane"></i>`;
+        computerSignsDisplay.innerHTML = `<i aria-label="Paper sign" id="paper" class="fas fa-paper-plane"></i>`;
     } else if (computerSign == 'Scissors') {
-        computerSignsDisplay.innerHTML = `<i id="scissors"class="fas fa-fan"></i>`;
+        computerSignsDisplay.innerHTML = `<i aria-label="Scissors sign" id="scissors"class="fas fa-fan"></i>`;
     }
 
     
