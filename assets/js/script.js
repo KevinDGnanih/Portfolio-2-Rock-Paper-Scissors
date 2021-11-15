@@ -116,4 +116,18 @@ function incrementComputerScore() {
     document.getElementById("computer-score-span").innerHTML = ++oldScore;
 }
 
+const msgUser = document.getElementById("message-user")
+const msgComputer = document.getElementById("message-computer")
+
+const reset = () => {
+    computerSign.innerHTML = "";
+    computerScore.innerHTML = "0";
+    userScore.innerHTML = "0";
+    msgUser.innerHTML = "";
+    msgComputer.innerHTML = "";
+    result.innerHTML = "";
+
+    
+}
+
 
