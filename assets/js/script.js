@@ -120,15 +120,14 @@ const msgUser = document.getElementById("message-user")
 const msgComputer = document.getElementById("message-computer")
 
 
-const reset = () => {
-    computerSign.innerHTML = "";
+document.getElementById("reset-btn").onclick = function() {
     computerScore.innerHTML = "0";
     userScore.innerHTML = "0";
     msgUser.innerHTML = "";
     msgComputer.innerHTML = "";
-    result.innerHTML = "";
-
-    
+    result.innerHTML = "  ";
 }
+
+console.log(reset);
 
 
