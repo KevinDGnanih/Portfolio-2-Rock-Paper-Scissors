@@ -119,6 +119,7 @@ function incrementComputerScore() {
 const msgUser = document.getElementById("message-user")
 const msgComputer = document.getElementById("message-computer")
 
+
 const reset = () => {
     computerSign.innerHTML = "";
     computerScore.innerHTML = "0";
