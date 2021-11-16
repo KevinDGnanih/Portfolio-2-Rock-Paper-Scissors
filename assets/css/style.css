@@ -167,6 +167,8 @@ body {
     width: 180px; 
     padding: 2px 0; 
     margin: 30px auto;
+    cursor: default;
+    
 }
 
 /*

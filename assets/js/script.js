@@ -125,7 +125,13 @@ document.getElementById("reset-btn").onclick = function() {
     userScore.innerHTML = "0";
     msgUser.innerHTML = "";
     msgComputer.innerHTML = "";
-    result.innerHTML = "  ";
+    result.style.cssText = `
+    color: #80B59B;
+    background-color: #80B59B; 
+    border-radius: inherit; 
+    width: 180px; 
+    padding: 2px 0; 
+    margin: 30px auto;`;
 }
 
 console.log(reset);
