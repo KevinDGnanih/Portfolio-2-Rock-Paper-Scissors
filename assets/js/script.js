@@ -8,6 +8,8 @@ const computerScore = document.getElementById("computer-score-span");
 const userChoice = document.getElementById("user-choice-area");
 const computerChoice = document.getElementById("computer-choice-area");
 const computerSignsDisplay = document.getElementById("computer-sign");
+const msgUser = document.getElementById("message-user")
+const msgComputer = document.getElementById("message-computer")
 /**const userChoiceDisplay = document.createElement("");
 const computerChoiceDisplay = document.createElement("");*/
 const messages = document.getElementById("messages");
@@ -105,7 +107,7 @@ function runGame(userChoice) {
 
 }
 
-
+// Incrementing scores for the User and Computer
 function incrementUserScore() {
     let oldScore = parseInt(document.getElementById("user-score-span").innerHTML);
     document.getElementById("user-score-span").innerHTML = ++oldScore;
@@ -116,10 +118,10 @@ function incrementComputerScore() {
     document.getElementById("computer-score-span").innerHTML = ++oldScore;
 }
 
-const msgUser = document.getElementById("message-user")
-const msgComputer = document.getElementById("message-computer")
 
 
+
+//Reset the game from the beginning
 document.getElementById("reset-btn").onclick = function() {
     computerScore.innerHTML = "0";
     userScore.innerHTML = "0";
@@ -132,8 +134,10 @@ document.getElementById("reset-btn").onclick = function() {
     width: 180px; 
     padding: 2px 0; 
     margin: 30px auto;`;
+    computerChoice.innerHTML = `
+    <p id="computer-sign" aria-label="Computer question mark">
+                    <span><i class="fas fa-question-circle"></i></span>
+                </p>`;
 }
-
-console.log(reset);
 
 
