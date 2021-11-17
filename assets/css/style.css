@@ -120,7 +120,7 @@ body {
     max-height: 490px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1%;
+    padding: 0%;
 }
 
 .game-board {
@@ -197,11 +197,11 @@ body {
     font-size: 4rem;
 }
 
-.fa-heart {
+/*.fa-heart {
     font-size: 1.5rem;
     color: tomato;
     padding: 3px;
-}
+}*/
 
 .fa-meteor {
     font-size: 6rem;
@@ -211,7 +211,8 @@ body {
 .fa-meteor:hover {
     cursor: pointer;
     color: tomato;
-    transform: scale(1.5,1.5);
+
+    transform: rotate(10deg);
 }
 
 .fa-paper-plane {
@@ -222,7 +223,7 @@ body {
 .fa-paper-plane:hover {
     cursor: pointer;
     color: tomato;
-    transform: scale(1.5,1.5);
+    transform: rotate(-20deg);
     
 }
 
@@ -234,7 +235,7 @@ body {
 .fa-fan:hover {
     cursor: pointer;
     color: tomato;
-    transform: scale(1.5,1.5);
+    transform: rotate(20deg);
 }
 
 .fa-question-circle {
@@ -279,4 +280,76 @@ footer > h3 {
     margin: 0%;
     padding: 0.8%;
     color: aliceblue;
+}
+
+/* -------------------- Media Queries */
+
+@media screen and (max-width: 1505px) {
+
+    .fa-meteor, .fa-paper-plane, .fa-fan, .fa-question-circle {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 1105px) {
+
+    .user-info, .computer-info {
+        width: 350px;
+    }
+
+    .fa-robot, .fa-user-astronaut {
+        font-size: 2rem;
+    
+    }
+}
+
+@media screen and (max-width: 905px) {
+
+    .user-info, .computer-info {
+        
+        width: 275px;
+    }
+
+    #computer-name, #user-name {
+
+        font-size: 13px;
+
+    }
+}
+
+@media screen and (max-width: 851px) {
+
+    .user-info, .computer-info {
+        display: inline;
+        width: 275px;
+    }
+
+    #computer-name, #user-name {
+
+        font-size: 13px;
+
+    }
+
+    #reset-btn {
+        width: auto;
+    }
+
+    .fa-meteor, .fa-paper-plane, .fa-fan, .fa-question-circle {
+        font-size: 3rem;
+    }
+
+    .result-area > h3 {
+        font-size: 4rem;
+    }
+
+    #user-choice-area {
+        
+    }
+    #computer-choice-area {
+        padding-right: 0%;
+    }
+
+    #computer-score {
+        
+    }
 }
