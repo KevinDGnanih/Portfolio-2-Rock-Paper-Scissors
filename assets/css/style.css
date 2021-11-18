@@ -354,11 +354,23 @@ footer > h3 {
         padding-right: 0%;
     }
 
-    #computer-score {
-        
-    }
 }
 
 @media screen and (max-width: 686px) {
     
+    .user-choice-area {
+        padding-left: 36px;
+    }
+
+    #computer-choice-area {
+        padding-right: 29px;
+    }
+
+    .computer-info p {
+        padding-right: 2px;
+    }
+
+    .computer-score {
+        padding-right: 24px;
+    }
 }
