@@ -16,6 +16,7 @@ body {
     text-align: center;
     font-size: 1.7rem;
     border-bottom: 1px solid #33393F;
+    margin-top: 0;
 }
 
 /* --------- Score Area */
@@ -116,7 +117,7 @@ body {
     
     box-sizing: border-box;
     width: 100%;
-    height: 65vh;
+    height: 455px;
     max-height: 490px;
     margin-left: auto;
     margin-right: auto;
