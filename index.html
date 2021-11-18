@@ -1,76 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock, Paper, Scissors Game</title>
-</head>
-<body>
-    <div class="heading-page">
-    
-        <h1>ROCK, PAPER, SCISSORS</h1>
-    
-    </div>
-    <div class="score-area">
-        <div aria-label="User info" class="user-info">
-            
-            <p id="user-profil"><i class="fas fa-user-astronaut"></i></p>
-            <p id="user-name">YOU</p>
-            <p id="user-score"><span id="user-score-span">0</span></p>
-            
-        </div>
-        <div aria-label="Computer info" class="computer-info">
-
-            <p id="computer-profil"><i class="fas fa-robot"></i></p>
-            <p id="computer-name">AI-Robot</p>
-            <p id="computer-score"><span id="computer-score-span">0</span></p>
-
-        </div>
-    </div>
-    <button id="reset-btn">RESET</button>
-    <div class="game-area">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Rock, Paper, Scissors Game</title>
+    </head>
+    <body>
+        <div class="heading-page">
         
-        <div class="game-board">
-            <h1>Make your choice:</h1>
-            <h2 id="result-msg">Your Turn</h2>
-            
-            <div class="user-choice-area" id="user-choice-area">
-                <button aria-label="Rock" data-choice="Rock" class="choice rock">
-                    <i id="rock"class="fas fa-meteor"></i>
-                </button>
+            <h1>ROCK, PAPER, SCISSORS</h1>
+        
+        </div>
+        <div class="score-area">
+            <div aria-label="User info" class="user-info">
                 
-                <button aria-label="Paper" data-choice="Paper" class="choice paper">
-                    <i id="paper" class="fas fa-paper-plane"></i>
-                </button>
+                <p id="user-profil"><i class="fas fa-user-astronaut"></i></p>
+                <p id="user-name">YOU</p>
+                <p id="user-score"><span id="user-score-span">0</span></p>
                 
-                <button aria-label="Scissors" data-choice="Scissors" class="choice scissors">
-                    <i id="scissors"class="fas fa-fan"></i>
-                </button>
             </div>
-            <div class="result-area" id="result-area">
-                <h3>-</h3>
-            </div>
-            <div class="computer-choice-area" id="computer-choice-area">
-                <p id="computer-sign" aria-label="Computer question mark">
-                    <span><i class="fas fa-question-circle"></i></span>
-                </p>
-            
+            <div aria-label="Computer info" class="computer-info">
+
+                <p id="computer-profil"><i class="fas fa-robot"></i></p>
+                <p id="computer-name">AI-Robot</p>
+                <p id="computer-score"><span id="computer-score-span">0</span></p>
+
             </div>
         </div>
-    </div>
-    <div aria-label="User selection message" id="message-user">
-        <h2 id="msg-user"> </h2>
-    </div>
-    <div aria-label="Computer selection message" id="message-computer">
-        <h2 id="msg-computer"> </h2>
-    </div>
-    <footer aria-label="Footer section">
-        <h3>KDG 2021</h3>
-    </footer>
+        <button id="reset-btn">RESET</button>
+        <div class="game-area">
+            
+            <div class="game-board">
+                <h1>Make your choice:</h1>
+                <h2 id="result-msg">Your Turn</h2>
+                
+                <div class="user-choice-area" id="user-choice-area">
+                    <button aria-label="Rock" data-choice="Rock" class="choice rock">
+                        <i id="rock"class="fas fa-meteor"></i>
+                    </button>
+                    
+                    <button aria-label="Paper" data-choice="Paper" class="choice paper">
+                        <i id="paper" class="fas fa-paper-plane"></i>
+                    </button>
+                    
+                    <button aria-label="Scissors" data-choice="Scissors" class="choice scissors">
+                        <i id="scissors"class="fas fa-fan"></i>
+                    </button>
+                </div>
+                <div class="result-area" id="result-area">
+                    <h3>-</h3>
+                </div>
+                <div class="computer-choice-area" id="computer-choice-area">
+                    <p id="computer-sign" aria-label="Computer question mark">
+                        <span><i class="fas fa-question-circle"></i></span>
+                    </p>
+                
+                </div>
+            </div>
+        </div>
+        <div aria-label="User selection message" id="message-user">
+            <h2 id="msg-user"> </h2>
+        </div>
+        <div aria-label="Computer selection message" id="message-computer">
+            <h2 id="msg-computer"> </h2>
+        </div>
+        <footer aria-label="Footer section">
+            <h3>KDG 2021</h3>
+        </footer>
 
-    <script src="assets/js/script.js"></script>
-    <script src="https://kit.fontawesome.com/bb09779c85.js" crossorigin="anonymous"></script>
-</body>
+        <script src="assets/js/script.js"></script>
+        <script src="https://kit.fontawesome.com/bb09779c85.js" crossorigin="anonymous"></script>
+    </body>
 </html>

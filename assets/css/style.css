@@ -14,7 +14,7 @@ body {
 
 .heading-page {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
     border-bottom: 1px solid #33393F;
     margin-top: 0;
 }
@@ -23,7 +23,7 @@ body {
 
 .user-info {
     
-    width: 450px;
+    width: 30%;
     height: 90px;
     border: 1px solid #33393F;
     border-bottom: 2px solid tomato;
@@ -35,7 +35,9 @@ body {
 
 .user-info p {
     float: left;
-    padding-left: 50px;
+    padding-left: 25%;
+    position: relative;
+    display: inline-block;
 }
 
 #user-name {
@@ -54,7 +56,7 @@ body {
 
 
 .computer-info {
-    width: 450px;
+    width: 30%;
     height: 90px;
     border: 1px solid #33393F;
     border-radius: 15px;
@@ -64,7 +66,9 @@ body {
 
 .computer-info p {
     float: right;
-    padding-right: 45px;
+    padding-right: 25%;
+    position: relative;
+    display: inline-block;
 }
 
 #computer-name {
@@ -83,8 +87,8 @@ body {
 
 .user-info, .computer-info {
     display: inline-block;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 3%;
+    margin-bottom: 1%;
     padding: 15px auto;
     
 }
@@ -117,11 +121,12 @@ body {
     
     box-sizing: border-box;
     width: 100%;
-    height: 455px;
+    height: 430px;
     max-height: 490px;
     margin-left: auto;
     margin-right: auto;
     padding: 0%;
+    position: static;
 }
 
 .game-board {
@@ -148,14 +153,13 @@ body {
 }
 
 .result-area h3 {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .user-choice-area {
     
-    padding-top: 65px;
+    padding-top: 30px;
     padding-left: 90px;
-    padding-bottom: 90px;
     width: 33%;
     float: left;
     letter-spacing: 30px;
@@ -180,7 +184,7 @@ body {
 */
 
 .computer-choice-area {
-    padding-top: 55px;
+    padding-top: 30px;
     padding-right: 90px;
     width: 33%;
     float: right;
@@ -284,14 +288,14 @@ footer > h3 {
 }
 
 /* -------------------- Media Queries */
-
+/*
 @media screen and (max-width: 1505px) {
 
     .fa-meteor, .fa-paper-plane, .fa-fan, .fa-question-circle {
         font-size: 5rem;
     }
-}
-
+}*/
+/*
 @media screen and (max-width: 1105px) {
 
     .user-info, .computer-info {
@@ -302,8 +306,8 @@ footer > h3 {
         font-size: 2rem;
     
     }
-}
-
+}*/
+/*
 @media screen and (max-width: 905px) {
 
     .user-info, .computer-info {
@@ -320,9 +324,9 @@ footer > h3 {
     #msg-computer {
         padding-top: 27px;
     }
-}
+}*/
 
-@media screen and (max-width: 851px) {
+/*@media screen and (max-width: 851px) {
 
     .user-info, .computer-info {
         display: inline;
@@ -354,8 +358,8 @@ footer > h3 {
         padding-right: 0%;
     }
 
-}
-
+}*/
+/*
 @media screen and (max-width: 686px) {
     
     .user-choice-area {
@@ -373,4 +377,4 @@ footer > h3 {
     .computer-score {
         padding-right: 24px;
     }
-}
+}*/
