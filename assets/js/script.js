@@ -122,7 +122,7 @@ function incrementComputerScore() {
 
 
 //Reset the game from the beginning
-document.getElementById("reset-btn").onclick = function() {
+let reset = document.getElementById("reset-btn").onclick = function reset() {
     computerScore.innerHTML = "0";
     userScore.innerHTML = "0";
     msgUser.innerHTML = "";
@@ -134,13 +134,10 @@ document.getElementById("reset-btn").onclick = function() {
     width: 180px; 
     padding: 2px 0; 
     margin: 30px auto;`;
-    computerChoice.innerHTML = `
-        <div id="computer-choice-area">
-            <p id="computer-sign" aria-label="Computer question mark">
-                <span><i class="fas fa-question-circle"></i></span>
-            </p>    
-        </div>`;
+    computerSignsDisplay.innerHTML = `
     
+    <i class="fas fa-question-circle"></i>`;
+        
 }
 
 
