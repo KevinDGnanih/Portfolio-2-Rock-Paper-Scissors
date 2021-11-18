@@ -135,9 +135,12 @@ document.getElementById("reset-btn").onclick = function() {
     padding: 2px 0; 
     margin: 30px auto;`;
     computerChoice.innerHTML = `
-    <p id="computer-sign" aria-label="Computer question mark">
-                    <span><i class="fas fa-question-circle"></i></span>
-                </p>`;
+        <div id="computer-choice-area">
+            <p id="computer-sign" aria-label="Computer question mark">
+                <span><i class="fas fa-question-circle"></i></span>
+            </p>    
+        </div>`;
+    
 }
 
 

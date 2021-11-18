@@ -315,6 +315,10 @@ footer > h3 {
         font-size: 13px;
 
     }
+
+    #msg-computer {
+        padding-top: 27px;
+    }
 }
 
 @media screen and (max-width: 851px) {
@@ -352,4 +356,8 @@ footer > h3 {
     #computer-score {
         
     }
+}
+
+@media screen and (max-width: 686px) {
+    
 }
