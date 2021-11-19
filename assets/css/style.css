@@ -60,13 +60,14 @@ body {
     height: 90px;
     border: 1px solid #33393F;
     border-radius: 15px;
+    border-bottom: 2px solid slateblue;
     box-shadow: 2px 5px 20px #cccbcb;
     
 }
 
 .computer-info p {
     float: right;
-    padding-right: 25%;
+    padding-right: 20%;
     position: relative;
     display: inline-block;
 }
@@ -184,7 +185,7 @@ body {
 */
 
 .computer-choice-area {
-    padding-top: 30px;
+    padding-top: 15px;
     padding-right: 90px;
     width: 33%;
     float: right;
@@ -288,93 +289,133 @@ footer > h3 {
 }
 
 /* -------------------- Media Queries */
-/*
-@media screen and (max-width: 1505px) {
+
+@media screen and (max-width: 1490px) {
 
     .fa-meteor, .fa-paper-plane, .fa-fan, .fa-question-circle {
         font-size: 5rem;
     }
-}*/
-/*
-@media screen and (max-width: 1105px) {
 
-    .user-info, .computer-info {
-        width: 350px;
+    .fa-user-astronaut, .fa-robot {
+        font-size: 3rem;
     }
 
-    .fa-robot, .fa-user-astronaut {
-        font-size: 2rem;
-    
+    #user-name, #computer-name {
+        font-size: 15px;
     }
-}*/
-/*
-@media screen and (max-width: 905px) {
+}
 
-    .user-info, .computer-info {
-        
-        width: 275px;
+@media screen and (max-width: 1080px) {
+
+    .fa-meteor, .fa-paper-plane, .fa-fan, .fa-question-circle {
+        font-size: 3.5rem;
     }
 
-    #computer-name, #user-name {
-
-        font-size: 13px;
-
+    .fa-user-astronaut, .fa-robot {
+        font-size: 2.5rem;
     }
 
-    #msg-computer {
-        padding-top: 27px;
-    }
-}*/
-
-/*@media screen and (max-width: 851px) {
-
-    .user-info, .computer-info {
-        display: inline;
-        width: 275px;
+    #user-name, #computer-name {
+        font-size: 15px;
     }
 
-    #computer-name, #user-name {
-
-        font-size: 13px;
-
+    #user-score, #computer-score {
+        font-size: 15px;
     }
 
-    #reset-btn {
-        width: auto;
+    .user-info p, .computer-info p {
+        padding-top: 15px;
     }
+
+}
+
+@media screen and (max-width: 895px) {
 
     .fa-meteor, .fa-paper-plane, .fa-fan, .fa-question-circle {
         font-size: 3rem;
     }
 
-    .result-area > h3 {
-        font-size: 4rem;
+    #user-profil, #computer-profil {
+        display: none;
     }
 
-    #user-choice-area {
-        
-    }
-    #computer-choice-area {
-        padding-right: 0%;
+    #msg-computer, #msg-user {
+        font-size: 15px;
     }
 
-}*/
-/*
-@media screen and (max-width: 686px) {
+    .user-info {
+        border-bottom: 1px solid tomato;
+    }
+
+    .user-info p {
+        display: relative;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .user-info, .computer-info {
+        margin: 15px;
+        width: 27%;
+    }
+    
+    #user-name, #computer-name {
+        padding: 5%;
+        font-size: 12px;
+    }
+
+    #user-name {
+        padding-left: 5%;
+        padding-top: 20%;
+    }
+
+    #computer-name {
+        padding-top: 20%;
+    }
+
+
+    #user-score, #computer-score {
+        padding-top: 18%;
+        font-size: 15px;
+    }
+
+    
+   
+    #myc-h1 {
+        font-size: 1.5rem;
+    }
+
+    #result-msg {
+        font-size: 1rem;
+    }
+
+#result-area h3 {
+    padding-right: 35px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+    .fa-meteor, .fa-paper-plane, .fa-fan, .fa-question-circle {
+        font-size: 2rem;
+    }
     
     .user-choice-area {
-        padding-left: 36px;
+        padding-left: 35px;
+        letter-spacing: 15px;
+
     }
 
-    #computer-choice-area {
-        padding-right: 29px;
+    .computer-choice-area {
+        width: 0%;
+        padding-right: 90px;
     }
 
-    .computer-info p {
-        padding-right: 2px;
+    .game-area {
+        height: 317px;
     }
 
-    .computer-score {
-        padding-right: 24px;
+    #msg-computer, #msg-user {
+        padding-top: 20px;
+        display: grid;
     }
-}*/
+}
