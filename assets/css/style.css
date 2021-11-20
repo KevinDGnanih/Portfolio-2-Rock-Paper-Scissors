@@ -123,7 +123,6 @@ body {
 
 #reset-btn:hover {
     cursor: pointer;
-    border: 1px solid black;
     border-radius: 8px;
     background-color: white;
     color: tomato;
