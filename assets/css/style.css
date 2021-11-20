@@ -1,5 +1,4 @@
 /* --------- Global style */
-
 body {
     background-color: white;
     font-family: "Raleway", sans-serif;
@@ -11,7 +10,6 @@ body {
 }
 
 /* --------- Heading */
-
 .heading-page {
     text-align: center;
     font-size: 1.1rem;
@@ -25,7 +23,6 @@ body {
     background-color: tomato;
     text-decoration: none;
     border-radius: 10px;
-
     font-weight: 700;
     padding: 8px;
     box-shadow: 2px 5px 20px #cccbcb;
@@ -39,7 +36,6 @@ body {
 /* --------- Score Area */
 
 .user-info {
-    
     width: 30%;
     height: 90px;
     border: 1px solid #33393F;
@@ -47,14 +43,12 @@ body {
     border-radius: 15px;
     margin-right: 180px;
     box-shadow: 2px 5px 20px #cccbcb;
-
 }
 
 .user-info p {
     float: left;
     padding-left: 25%;
     position: relative;
-    
 }
 
 #user-name {
@@ -79,14 +73,12 @@ body {
     border-radius: 15px;
     border-bottom: 2px solid slateblue;
     box-shadow: 2px 5px 20px #cccbcb;
-    
 }
 
 .computer-info p {
     float: right;
     padding-right: 20%;
     position: relative;
-    
 }
 
 #computer-name {
@@ -108,11 +100,9 @@ body {
     margin-top: 3%;
     margin-bottom: 1%;
     padding: 15px;
-    
 }
 
 #reset-btn {
-    
     border-radius: 8px;
     background-color: tomato;
     color: black;
@@ -134,7 +124,6 @@ body {
 /* --------- Game layout */
 
 .game-area {
-    
     box-sizing: border-box;
     width: 100%;
     height: 490px;
@@ -156,7 +145,6 @@ body {
     display: flow-root;
     position: absolute;
     background-color: #80B59B;
-    
 }
 
 .game-area h1 {
@@ -173,7 +161,6 @@ body {
 }
 
 .user-choice-area {
-    
     padding-top: 30px;
     padding-left: 90px;
     width: 33%;
@@ -189,27 +176,16 @@ body {
     padding: 2px 0; 
     margin: 30px auto;
     cursor: default;
-    
 }
-
-/*
-.user-choice-area button {
-    display: inline;
-    padding-left: 85px;
-}
-*/
 
 .computer-choice-area {
     padding-top: 15px;
     padding-right: 90px;
     width: 33%;
     float: right;
-    
 }
 
-
 /* --------- Logos */
-
 .fa-user-astronaut {
  font-size: 4rem;
 }
@@ -217,12 +193,6 @@ body {
 .fa-robot {
     font-size: 4rem;
 }
-
-/*.fa-heart {
-    font-size: 1.5rem;
-    color: tomato;
-    padding: 3px;
-}*/
 
 .fa-meteor {
     font-size: 6rem;
@@ -245,7 +215,6 @@ body {
     cursor: pointer;
     color: tomato;
     transform: rotate(-20deg);
-    
 }
 
 .fa-fan {
@@ -264,19 +233,16 @@ body {
     color: wheat;
 }
 
-
 button {
     border: none;
     background-color: transparent;
 }
 
 /* --------- Message */
-
 #msg-user {
     margin-left: 21%;
     float: left;
-    position: absolute;
-    
+    position: absolute; 
 }
 
 #msg-computer {
@@ -285,7 +251,6 @@ button {
 }
 
 /* --------- Footer */
-
 footer {
     margin: 0%;
     margin-top: 80px;
@@ -306,7 +271,6 @@ footer > h3 {
 /* -------------------- Media Queries */
 
 @media screen and (max-width: 1490px) {
-
     .fa-meteor, .fa-paper-plane, .fa-fan, .fa-question-circle {
         font-size: 5rem;
     }
@@ -321,7 +285,6 @@ footer > h3 {
 }
 
 @media screen and (max-width: 1080px) {
-
     .fa-meteor, .fa-paper-plane, .fa-fan, .fa-question-circle {
         font-size: 3.5rem;
     }
@@ -341,11 +304,9 @@ footer > h3 {
     .user-info p, .computer-info p {
         padding-top: 15px;
     }
-
 }
 
 @media screen and (max-width: 895px) {
-
     .fa-meteor, .fa-paper-plane, .fa-fan, .fa-question-circle {
         font-size: 3rem;
     }
@@ -364,7 +325,6 @@ footer > h3 {
 }
 
 @media screen and (max-width: 720px) {
-
     .user-info, .computer-info {
         margin: 15px;
         width: 27%;
@@ -384,14 +344,11 @@ footer > h3 {
         padding-top: 20%;
     }
 
-
     #user-score, #computer-score {
         padding-top: 18%;
         font-size: 15px;
     }
 
-    
-   
     #myc-h1 {
         font-size: 1.5rem;
     }
@@ -400,11 +357,11 @@ footer > h3 {
         font-size: 1rem;
     }
 
-#result-area h3 {
-    padding-right: 35px;
-    padding-top: 15px;
-    font-size: 20px;
-}
+    #result-area h3 {
+        padding-right: 35px;
+        padding-top: 15px;
+        font-size: 20px;
+    }
 
     .fa-meteor, .fa-paper-plane, .fa-fan, .fa-question-circle {
         font-size: 2rem;
