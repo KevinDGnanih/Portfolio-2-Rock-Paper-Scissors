@@ -14,7 +14,9 @@ Give it a try!
 
 ## User Experience 
 
-Screanshot of the game from different devices
+![alt text](assets/images/am-I.png)
+
+Screenshot from [Am I Responsive](http://http://ami.responsivedesign.is/#)
 
 - Game layout
 
@@ -24,7 +26,7 @@ Screanshot of the game from different devices
     - The chosen sign by the computer will show up as soon as the user clicked his choice.
     - Extra written information at the bottom of the page reagrding the selection of signs form both sides.
 
-Insert a picture of the layout of the game. 
+![alt text](assets/images/game-layout.png) 
 
 ### Feature left to implement
 In a near future I would like to implement:
@@ -55,9 +57,13 @@ In a near future I would like to implement:
 
 ### Validator Testing : W3C and JSHint
 
-I used Lighthouse to audit the performance of the website
+I used Lighthouse to audit the performance of the website:
 
-insert pic of lighthouse result
+
+![Lighthouse Result](assets/images/lighthouse-result.png)
+![W3C HTML validator](assets/imgaes/html-validator.png)
+![Jigsaw CSS validator](assets/images/jigsaw-result.png)
+![JSHint validation](assets/images/jshint-result.png)
 
 ### Unfixed bugs
 
