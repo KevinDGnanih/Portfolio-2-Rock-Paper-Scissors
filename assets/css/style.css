@@ -387,3 +387,9 @@ footer > h3 {
         display: grid;
     }
 }
+
+@media screen and (max-width: 360px) {
+    #user-score {
+        padding-left: 35px;
+    }
+}
