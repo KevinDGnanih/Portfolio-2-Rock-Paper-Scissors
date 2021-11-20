@@ -392,4 +392,28 @@ footer > h3 {
     #user-score {
         padding-left: 35px;
     }
+
+    .user-choice-area {
+        padding-left: 20px;
+    }
+
+    #result-area h3 {
+        padding-right: 15px;
+        padding-top: 50px;
+    }
+
+    .computer-choice-area {
+        padding-right: 90px;
+        padding-top: 45px;
+    }
+
+    #msg-computer {
+        position: absolute;
+        padding-top: 0px;
+        padding-left: 170px;
+    }
+
+    #msg-user {
+        padding-top: 0px;
+    }
 }
