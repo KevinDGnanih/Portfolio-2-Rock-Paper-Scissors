@@ -1,6 +1,5 @@
 // Declare constants for DOM elements
 // Possible choices
-// Get the button elements and event listeners to them
 
 const buttons = document.getElementsByClassName("choice");
 const userScore = document.getElementById("user-score-span");
@@ -8,13 +7,10 @@ const computerScore = document.getElementById("computer-score-span");
 const userChoice = document.getElementById("user-choice-area");
 const computerChoice = document.getElementById("computer-choice-area");
 const computerSignsDisplay = document.getElementById("computer-sign");
-const msgUser = document.getElementById("message-user")
-const msgComputer = document.getElementById("message-computer")
-/**const userChoiceDisplay = document.createElement("");
-const computerChoiceDisplay = document.createElement("");*/
+const msgUser = document.getElementById("message-user");
+const msgComputer = document.getElementById("message-computer");
 const messages = document.getElementById("messages");
 const choices = ["Rock", "Paper" , "Scissors"];
-
 
 //Setting the rule of the game and the result variable
 let result = document.getElementById("result-msg");
@@ -50,7 +46,6 @@ for (let button of buttons) {
  * The main game function
  */
 function runGame(userChoice) {
-
     document.getElementById("message-user").innerHTML =
     `<h2 id="msg-user">You choose <span>${userChoice}</span></h2>`;
 
@@ -69,7 +64,7 @@ function runGame(userChoice) {
         computerSignsDisplay.innerHTML = `<i aria-label="Scissors sign" id="scissors"class="fas fa-fan"></i>`;
     }
 
-    
+    //Designating the winner and display messages
     switch(rule[userChoice][computerSign]) {
         case ('win'):
             result.style.cssText = 
@@ -104,7 +99,6 @@ function runGame(userChoice) {
             result.innerHTML = "It's a DRAW";
             break;
     }
-
 }
 
 // Incrementing scores for the User and Computer
@@ -117,9 +111,6 @@ function incrementComputerScore() {
     let oldScore = parseInt(document.getElementById("computer-score-span").innerHTML);
     document.getElementById("computer-score-span").innerHTML = ++oldScore;
 }
-
-
-
 
 //Reset the game from the beginning
 let reset = document.getElementById("reset-btn").onclick = function reset() {
@@ -135,9 +126,5 @@ let reset = document.getElementById("reset-btn").onclick = function reset() {
     padding: 2px 0; 
     margin: 30px auto;`;
     computerSignsDisplay.innerHTML = `
-    
-    <i class="fas fa-question-circle"></i>`;
-        
+    <i class="fas fa-question-circle"></i>`;       
 }
-
-
