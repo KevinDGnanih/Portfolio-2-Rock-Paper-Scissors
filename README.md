@@ -55,3 +55,28 @@ In a near future I would like to implement:
 
 ### Validator Testing : W3C and JSHint
 
+I used Lighthouse to audit the performance of the website
+
+insert pic of lighthouse result
+
+### Unfixed bugs
+
+- None
+
+## Deployement
+
+This website was published using GitHub Page. The steps are outlined below:
+    - In GitHub repository, navigate to the settings tab
+    - From the source section drop-menu, select the Main branch
+    - Once the main branch has been selected, the page was autmatically refreshed 
+    with a detailed ribbon display to indicate the seccessful deployment.
+
+    The live link can be found here - https://kevindgnanih.github.io/Portfolio-2-Rock-Paper-Scissors/
+
+## Credits 
+
+### Credits for the information and learning material I've used:
+
+    - (https://www.w3schools.com)
+
+
