@@ -259,7 +259,8 @@ footer {
     width: 100%;
     background-color: #33393F;
     box-shadow: 2px 5px 20px #cccbcb;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
 }
 
 footer > h3 {
