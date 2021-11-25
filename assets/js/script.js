@@ -67,36 +67,21 @@ function runGame(userChoice) {
     //Designating the winner and display messages
     switch(rule[userChoice][computerSign]) {
         case ('win'):
-            result.style.cssText = 
-            `color: rgb(68, 83, 97);
-            background-color: yellowgreen; 
-            border-radius: inherit; 
-            width: 180px; 
-            padding: 2px 0; 
-            margin: 30px auto;`;
             result.innerHTML = 'You WIN';
+            result.classList.remove('lose-color', 'draw-color');
+            result.classList.add('win-color');
             incrementUserScore();
             break;
         case ('lose'):
-            result.style.cssText = 
-            `background-color: tomato;
-            color: rgb(68, 83, 97);
-            border-radius: inherit; 
-            width: 180px; 
-            padding: 2px 0; 
-            margin: 30px auto;`;
             result.innerHTML = 'You LOSE';
-            incrementComputerScore()
+            result.classList.remove('win-color', 'draw-color');
+            result.classList.add("lose-color");
+            incrementComputerScore();
             break;
         default:
-            result.style.cssText = 
-            `color: rgb(68, 83, 97);
-            background-color: wheat;
-            border-radius: inherit; 
-            width: 180px; 
-            padding: 2px 0; 
-            margin: 30px auto;`;
             result.innerHTML = "It's a DRAW";
+            result.classList.remove('win-color', 'lose-color');
+            result.classList.add('draw-color');
             break;
     }
 }

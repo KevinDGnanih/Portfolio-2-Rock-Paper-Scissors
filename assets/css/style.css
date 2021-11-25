@@ -169,13 +169,14 @@ body {
 }
 
 #result-msg {
-    color: #80B59B;
+    /*color: #80B59B;
     background-color: #80B59B; 
-    border-radius: inherit; 
+    border-radius: inherit; */
     width: 180px; 
     padding: 2px 0; 
     margin: 30px auto;
     cursor: default;
+    
 }
 
 .computer-choice-area {
@@ -183,6 +184,45 @@ body {
     padding-right: 90px;
     width: 33%;
     float: right;
+}
+
+/* --------- Result msg style */
+
+.win-color {
+    color: rgb(68, 83, 97);
+    background-color: yellowgreen; 
+    border-radius: inherit; 
+    width: 180px; 
+    padding: 2px 0; 
+    margin: 30px auto;
+}
+
+.lose-color {
+    background-color: tomato;
+    color: rgb(68, 83, 97);
+    border-radius: inherit; 
+    width: 180px; 
+    padding: 2px 0; 
+    margin: 30px auto;
+}
+
+.draw-color {
+    color: rgb(68, 83, 97);
+    background-color: wheat;
+    border-radius: inherit; 
+    width: 180px; 
+    padding: 2px 0; 
+    margin: 30px auto;
+}
+
+.none-color {
+    color: #80B59B;
+    background-color: #80B59B; 
+    border-radius: inherit;
+    width: 180px; 
+    padding: 2px 0; 
+    margin: 30px auto;
+    cursor: default;
 }
 
 /* --------- Logos */
