@@ -11,6 +11,7 @@ const msgUser = document.getElementById("message-user");
 const msgComputer = document.getElementById("message-computer");
 const messages = document.getElementById("messages");
 const choices = ["Rock", "Paper" , "Scissors"];
+let selected = false;
 
 //Setting the rule of the game and the result variable
 let result = document.getElementById("result-msg");
@@ -46,16 +47,20 @@ for (let button of buttons) {
  * The main game function
  */
 function runGame(userChoice) {
+    
+    // Give the user information of sign selected
     document.getElementById("message-user").innerHTML =
     `<h2 id="msg-user">You choose <span>${userChoice}</span></h2>`;
 
+    // Let the computer select a sign
     const num = Math.floor(Math.random() * 3);
     
+    // Give the computer information of sign selected
     document.getElementById("message-computer").innerHTML = 
     `<h2 id="msg-computer">Computer choice is <span>${choices[num]}</span></h2>`;
 
+
     let computerSign = choices[num];
-    
     if (computerSign == 'Rock') {
         computerSignsDisplay.innerHTML = `<i aria-label="Rock" id="rock"class="fas fa-meteor"></i>`;
     } else if (computerSign == 'Paper') {
@@ -63,6 +68,7 @@ function runGame(userChoice) {
     } else if (computerSign == 'Scissors') {
         computerSignsDisplay.innerHTML = `<i aria-label="Scissors sign" id="scissors"class="fas fa-fan"></i>`;
     }
+
 
     //Designating the winner and display messages
     switch(rule[userChoice][computerSign]) {
@@ -84,6 +90,13 @@ function runGame(userChoice) {
             result.classList.add('draw-color');
             break;
     }
+
+    setTimeout(() => {
+        document.getElementById('result-msg').innerHTML = '';
+        result.classList.remove('win-color', 'lose-color', 'draw-color');
+        selected = true;
+    }, 3000);
+
 }
 
 // Incrementing scores for the User and Computer
