@@ -243,8 +243,8 @@ body {
 .fa-meteor:hover {
     cursor: pointer;
     color: tomato;
-
     transform: rotate(10deg);
+    visibility: visible;
 }
 
 .fa-paper-plane {
