@@ -11,7 +11,7 @@ const msgUser = document.getElementById("message-user");
 const msgComputer = document.getElementById("message-computer");
 const messages = document.getElementById("messages");
 const choices = ["Rock", "Paper" , "Scissors"];
-let selected = false;
+
 
 //Setting the rule of the game and the result variable
 let result = document.getElementById("result-msg");
@@ -92,10 +92,12 @@ function runGame(userChoice) {
     }
 
     setTimeout(() => {
+        
         document.getElementById('result-msg').innerHTML = '';
         result.classList.remove('win-color', 'lose-color', 'draw-color');
-        selected = true;
-    }, 3000);
+    }, 3000); 
+
+    
 
 }
 
