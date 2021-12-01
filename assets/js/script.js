@@ -7,6 +7,8 @@ const computerScore = document.getElementById("computer-score-span");
 const userChoice = document.getElementById("user-choice-area");
 const computerChoice = document.getElementById("computer-choice-area");
 const computerSignsDisplay = document.getElementById("computer-sign");
+const infoUser = document.getElementById('user-info');
+const infoComputer = document.getElementById('computer-info');
 const msgUser = document.getElementById("message-user");
 const msgComputer = document.getElementById("message-computer");
 const messages = document.getElementById("messages");
@@ -77,12 +79,14 @@ function runGame(userChoice) {
             result.innerHTML = 'You WIN';
             result.classList.remove('lose-color', 'draw-color');
             result.classList.add('win-color');
+            infoUser.classList.add('winner-animation');
             incrementUserScore();
             break;
         case ('lose'):
             result.innerHTML = 'You LOSE';
             result.classList.remove('win-color', 'draw-color');
             result.classList.add("lose-color");
+            infoComputer.classList.add('winner-animation');
             incrementComputerScore();
             break;
         default:
@@ -98,6 +102,8 @@ function runGame(userChoice) {
         `<h1 id="myc-h1">Make your choice:</h1>`;
         document.getElementById('result-msg').innerHTML = '';
         result.classList.remove('win-color', 'lose-color', 'draw-color');
+        infoUser.classList.remove('winner-animation');
+        infoComputer.classList.remove('winner-animation');
     }, 2000); 
 
     

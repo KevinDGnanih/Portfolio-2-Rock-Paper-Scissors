@@ -75,6 +75,17 @@ body {
     box-shadow: 2px 5px 20px #cccbcb;
 }
 
+/* Animation green winner */
+@keyframes fade-inout {
+    0% { opacity: 1; background-color: #80B59B;}
+    100% { opacity: 0;}
+}
+
+.winner-animation {
+    animation: fade-inout 3s;
+    z-index: 1;
+}
+
 .computer-info p {
     float: right;
     padding-right: 20%;
