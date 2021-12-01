@@ -40,6 +40,7 @@ for (let button of buttons) {
     button.addEventListener('click', function(){
         let userChoice = this.getAttribute("data-choice");
         runGame(userChoice);
+        document.getElementById('myc-h1').innerHTML = 'Result:';
     });
 }
 
@@ -92,10 +93,12 @@ function runGame(userChoice) {
     }
 
     setTimeout(() => {
-        
+        //Brings back the "Make your choice"
+        document.getElementById('myc-h1').innerHTML = 
+        `<h1 id="myc-h1">Make your choice:</h1>`;
         document.getElementById('result-msg').innerHTML = '';
         result.classList.remove('win-color', 'lose-color', 'draw-color');
-    }, 3000); 
+    }, 2000); 
 
     
 
