@@ -109,7 +109,7 @@ function runGame(userChoice) {
         infoUser.classList.remove('winner-animation');
         infoComputer.classList.remove('winner-animation');
         
-    }, 2000); 
+    }, 1000); 
 
     
 
