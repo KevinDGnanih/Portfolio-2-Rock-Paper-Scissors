@@ -77,12 +77,12 @@ body {
 
 /* Animation green winner */
 @keyframes fade-inout {
-    0% { opacity: 1; background: #80B59B;}
-    100% { opacity: 0;}
+    0% { opacity: 0; background-color:  #80B59B;}
+    100% { opacity: 1;}
 }
 
 .winner-animation {
-    animation: fade-inout 3s;
+    animation: fade-inout 1s;
     
     
 }

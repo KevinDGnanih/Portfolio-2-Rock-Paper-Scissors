@@ -13,6 +13,8 @@ const msgUser = document.getElementById("message-user");
 const msgComputer = document.getElementById("message-computer");
 const messages = document.getElementById("messages");
 const choices = ["Rock", "Paper" , "Scissors"];
+let selected = document.querySelectorAll('button');
+
 
 
 //Setting the rule of the game and the result variable
@@ -43,6 +45,7 @@ for (let button of buttons) {
         let userChoice = this.getAttribute("data-choice");
         runGame(userChoice);
         document.getElementById('myc-h1').innerHTML = 'Result:';
+        selected = false;
     });
 }
 
@@ -51,6 +54,7 @@ for (let button of buttons) {
  */
 function runGame(userChoice) {
     
+
     // Give the user information of sign selected
     document.getElementById("message-user").innerHTML =
     `<h2 id="msg-user">You choose <span>${userChoice}</span></h2>`;
@@ -104,6 +108,7 @@ function runGame(userChoice) {
         result.classList.remove('win-color', 'lose-color', 'draw-color');
         infoUser.classList.remove('winner-animation');
         infoComputer.classList.remove('winner-animation');
+        
     }, 2000); 
 
     
