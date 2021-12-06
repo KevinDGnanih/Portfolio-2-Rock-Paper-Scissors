@@ -302,6 +302,7 @@ button {
 #msg-computer {
     float: right;
     margin-right: 19%;
+    position: relative;
 }
 
 /* --------- Footer */
