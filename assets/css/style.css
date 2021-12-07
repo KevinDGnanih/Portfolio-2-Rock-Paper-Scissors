@@ -182,9 +182,6 @@ body {
 }
 
 #result-msg {
-    /*color: #80B59B;
-    background-color: #80B59B; 
-    border-radius: inherit; */
     width: 180px; 
     padding: 2px 0; 
     margin: 30px auto;
@@ -227,16 +224,6 @@ body {
     width: 180px; 
     padding: 2px 0; 
     margin: 30px auto;
-}
-
-.none-color {
-    color: #80B59B;
-    background-color: #80B59B; 
-    border-radius: inherit;
-    width: 180px; 
-    padding: 2px 0; 
-    margin: 30px auto;
-    cursor: default;
 }
 
 /* --------- Logos */

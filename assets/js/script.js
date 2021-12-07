@@ -4,16 +4,12 @@
 const buttons = document.getElementsByClassName("choice");
 const userScore = document.getElementById("user-score-span");
 const computerScore = document.getElementById("computer-score-span");
-const userChoice = document.getElementById("user-choice-area");
-const computerChoice = document.getElementById("computer-choice-area");
 const computerSignsDisplay = document.getElementById("computer-sign");
 const infoUser = document.getElementById('user-info');
 const infoComputer = document.getElementById('computer-info');
 const msgUser = document.getElementById("message-user");
 const msgComputer = document.getElementById("message-computer");
-const messages = document.getElementById("messages");
 const choices = ["Rock", "Paper" , "Scissors"];
-let selected = document.querySelectorAll('button');
 
 
 
@@ -35,7 +31,7 @@ let rule = {
         'Scissors' : 'lose',
         'Paper' : 'draw',
     }
-}
+};
 
 /**
  * Add event listener to all the buttons
@@ -45,7 +41,6 @@ for (let button of buttons) {
         let userChoice = this.getAttribute("data-choice");
         runGame(userChoice);
         document.getElementById('myc-h1').innerHTML = 'Result:';
-        selected = false;
     });
 }
 
@@ -127,7 +122,7 @@ function incrementComputerScore() {
 }
 
 //Reset the game from the beginning
-let reset = document.getElementById("reset-btn").onclick = function reset() {
+document.getElementById("reset-btn").onclick = function reset() {
     computerScore.innerHTML = "0";
     userScore.innerHTML = "0";
     msgUser.innerHTML = "";
@@ -136,4 +131,4 @@ let reset = document.getElementById("reset-btn").onclick = function reset() {
     result.classList.remove('win-color', 'lose-color', 'draw-color');
     computerSignsDisplay.innerHTML = `
     <i class="fas fa-question-circle"></i>`;       
-}
+};
