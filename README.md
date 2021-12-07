@@ -57,13 +57,18 @@ In a near future I would like to implement:
 
 ### Validator Testing : W3C and JSHint
 
-I used Lighthouse to audit the performance of the website:
-
-
 ![Lighthouse Result](assets/images/lighthouse-result.png)
+Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features.
+
 ![W3C HTML validator](assets/imgaes/html-validator.png)
 ![Jigsaw CSS validator](assets/images/jigsaw-result.png)
+I used the [W3C Markup Validation Service](https://validator.w3.org/) to check the Markup and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to check the CSS
+validity of the site.
+
+
 ![JSHint validation](assets/images/jshint-result.png)
+I used JsHint to help me check to detect any errors and potential problems in my JavaScript code. 
+[JsHint JavaScript Validator](https://jshint.com/)
 
 ### Unfixed bugs
 
@@ -86,3 +91,12 @@ This website was published using GitHub Page. The steps are outlined below:
     - (https://www.w3schools.com)
 
 
+### Media
+
+The signs used for the game were taken from Font Awesome: (https://fontawesome.com/)
+
+### Acknowledgments
+
+I would like to thanks my mentor [Guido Cecilio](https://github.com/guidocecilio) for his support and guidance throughout the course of this project.
+
+Thank you!

@@ -105,12 +105,11 @@ function runGame(userChoice) {
         infoComputer.classList.remove('winner-animation');
         
     }, 1000); 
-
-    
-
 }
 
-// Incrementing scores for the User and Computer
+/**
+ * Incrementing scores for the User and Computer
+ */
 function incrementUserScore() {
     let oldScore = parseInt(document.getElementById("user-score-span").innerHTML);
     document.getElementById("user-score-span").innerHTML = ++oldScore;

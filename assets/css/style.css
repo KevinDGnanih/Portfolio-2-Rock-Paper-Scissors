@@ -75,18 +75,6 @@ body {
     box-shadow: 2px 5px 20px #cccbcb;
 }
 
-/* Animation green winner */
-@keyframes fade-inout {
-    0% { opacity: 0; background-color:  #80B59B;}
-    100% { opacity: 1;}
-}
-
-.winner-animation {
-    animation: fade-inout 1s;
-    
-    
-}
-
 .computer-info p {
     float: right;
     padding-right: 20%;
@@ -132,6 +120,18 @@ body {
     padding: 8px;
     box-shadow: 2px 5px 20px #cccbcb;
 }
+
+/* -------------------- Animation green winner */
+@keyframes fade-inout {
+    0% { opacity: 0; background-color:  #80B59B;}
+    100% { opacity: 1;}
+}
+
+.winner-animation {
+    animation: fade-inout 1s;
+    
+    
+}/* End of animation area */
 
 /* --------- Game layout */
 

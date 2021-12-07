@@ -10,6 +10,7 @@
         <title>Rock, Paper, Scissors Game</title>
     </head>
     <body>
+        <!--Heading page-->
         <div class="heading-page">
             <h1><i class="fas fa-meteor"></i> ROCK,  <i id="paper" class="fas fa-paper-plane"></i> PAPER, <i id="scissors" class="fas fa-fan"></i> SCISSORS</h1>
             <p><a id="rule-btn" target="_blank" href="https://en.wikipedia.org/wiki/Rock_paper_scissors#:~:text=A%20player%20who%20decides%20to,%22scissors%20cuts%20paper%22).">RULE</a></p>
@@ -28,11 +29,12 @@
             </div>
         </div>
         <button id="reset-btn">RESET</button>
-        <!--Game Layout-->
+        <!--Game area-->
         <div class="game-area">
             <div class="game-board">
                 <h1 id="myc-h1">Make your choice:</h1>
                 <h2 id="result-msg"></h2>
+                <!--User choice area-->
                 <div class="user-choice-area" id="user-choice-area">
                     <button id="btn-rock" aria-label="Rock" data-choice="Rock" class="choice rock">
                         <i id="rock" class="fas fa-meteor"></i>
@@ -47,6 +49,7 @@
                 <div class="result-area" id="result-area">
                     <h3>-</h3>
                 </div>
+                <!--Computer choice area-->
                 <div class="computer-choice-area" id="computer-choice-area">
                     <p id="computer-sign">
                         <span><i class="fas fa-question-circle"></i></span>
