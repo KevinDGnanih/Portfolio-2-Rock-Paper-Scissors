@@ -2,9 +2,9 @@
 
 ## About
 
-This game was build upon the real life game where 2 person have a battle with gestures.
+This game was built upon the real-life game where 2 people have a battle with gestures.
 To make this even more fun, you now have the opportunity to play against the "AI" computer.
-This game is and will always be bases on luck to win. Try your luck and make the choice of how many rounds you want to play!
+This game is and will always be based on luck to win. Try your luck and make the choice of how many rounds you want to play!
 
 Give it a try!
 
@@ -21,10 +21,10 @@ Screenshot from [Am I Responsive](http://http://ami.responsivedesign.is/#)
 - Game layout
 
     - The user will have the ability to play three "cards" gestures.
-    - Thr score point in game is linked to the rounds, for eaxh win/round will increase the score.
-    - Information regarding who won the round will appear on screen.
+    - The score point in-game is linked to the rounds, for each win/round will increase the score.
+    - Information regarding who won the round will appear on the screen.
     - The chosen sign by the computer will show up as soon as the user clicked his choice.
-    - Extra written information at the bottom of the page reagrding the selection of signs form both sides.
+    - Extra written information at the bottom of the page regarding the selection of signs from both sides.
 
 ![alt text](assets/images/game-layout.png) 
 
@@ -42,13 +42,13 @@ In a near future I would like to implement:
 - Was used for styling the elements and content on the website.
 
 [Font Awesome](https://fontawesome.com/)
-- Was used to have the logos and signs.
+- Was used to have logos and signs.
 
 [Javascript](https://en.wikipedia.org/wiki/JavaScript)
-- Was used for to code relevant responses to user actions, logics and calculating.
+- Was used to code relevant responses to user actions, logic, and calculating.
 
 [GitHub:](https://github.com/)
-- GitHub was used to store the projects code after being pushed from Git.
+- GitHub was used to store the project's code after being pushed from Git.
 
 [Gitpod:](https://www.gitpod.io/)
 - Was used to develop and write my project.
@@ -77,10 +77,10 @@ I used JsHint to help me check to detect any errors and potential problems in my
 ## Deployement
 
 This website was published using GitHub Page. The steps are outlined below:
-    - In GitHub repository, navigate to the settings tab
+    - In the GitHub repository, navigate to the settings tab
     - From the source section drop-menu, select the Main branch
-    - Once the main branch has been selected, the page was autmatically refreshed 
-    with a detailed ribbon display to indicate the seccessful deployment.
+    - Once the main branch has been selected, the page was automatically refreshed 
+    with a detailed ribbon, display to indicate the successful deployment.
 
     The live link can be found here - https://kevindgnanih.github.io/Portfolio-2-Rock-Paper-Scissors/
 
@@ -97,6 +97,6 @@ The signs used for the game were taken from Font Awesome: (https://fontawesome.c
 
 ### Acknowledgments
 
-I would like to thanks my mentor [Guido Cecilio](https://github.com/guidocecilio) for his support and guidance throughout the course of this project.
+I would like to thank my mentor [Guido Cecilio](https://github.com/guidocecilio) for his support and guidance throughout the course of this project.
 
 Thank you!
