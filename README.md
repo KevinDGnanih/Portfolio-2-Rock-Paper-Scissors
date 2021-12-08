@@ -28,12 +28,31 @@ Screenshot from [Am I Responsive](http://http://ami.responsivedesign.is/#)
 
 ![alt text](assets/images/game-layout.png) 
 
+### Strategy
+
+My strategy for the site was to provide content and ease of access to users who want to play a simple game and have fun by utilizing the key UX principles.
+The website was made in a way to not overwelm the users with clean and ituitive information and navigation.
+
+### Scope
+
+In order to achieve the discovery and strategy goals, the following features were included in this release:
+
+- Header to highlight the name of the game
+- A button that is linked to the game's rule
+- Two rectangles that shows information about the players
+- A reset button that gives the user the chance to start the game from zero
+- A head that indicate what to do and the result of the round
+- Two sections that show the signs
+- Two messages sections that appear after the user selected a sign
+to informed in letters what signs have been selected from both competitors
+- Footer that contains the copyright of the page
+
 ### Feature left to implement
 In a near future I would like to implement:
 - Sound effects
 - Upgrade the UX
 
-## Lamguages, Libraries and Programs
+## Languages, Libraries and Programs
 
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - Was used for the overall structure of the website.
