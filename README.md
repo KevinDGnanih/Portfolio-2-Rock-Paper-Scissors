@@ -47,11 +47,6 @@ In order to achieve the discovery and strategy goals, the following features wer
 to informed in letters what signs have been selected from both competitors
 - Footer that contains the copyright of the page
 
-### Feature left to implement
-In a near future I would like to implement:
-- Sound effects
-- Upgrade the UX
-
 ## Languages, Libraries and Programs
 
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
