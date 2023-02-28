@@ -1,3 +1,19 @@
+#rule-btn {
+    color: #33393F;
+    font-size: 15px;
+    background-color: tomato;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 8px;
+    box-shadow: 2px 5px 20px #cccbcb;
+}
+
+#rule-btn:hover {
+    color: tomato;
+    background-color: white;
+}
+
 #reset-btn {
     margin-bottom: 10px;
     border-radius: 8px;
@@ -49,7 +65,7 @@
 
 /* --------- Logos */
 .fa-user-astronaut {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .fa-robot {
@@ -57,7 +73,7 @@
 }
 
 .fa-meteor {
-    font-size: 3rem;
+    font-size: 2rem;
     color: wheat;
 }
 
@@ -69,7 +85,7 @@
 }
 
 .fa-paper-plane {
-    font-size: 3rem;
+    font-size: 2rem;
     color: wheat;
 }
 
@@ -80,7 +96,7 @@
 }
 
 .fa-fan {
-    font-size: 3rem;
+    font-size: 2rem;
     color: wheat;
 }
 
@@ -91,13 +107,31 @@
 }
 
 .fa-question-circle {
-    font-size: 3rem;
+    font-size: 2rem;
     color: wheat;
+}
+
+.signs {
+    font-size: 3.5rem;
 }
 
 button {
     border: none;
     background-color: transparent;
+}
+
+/* -------------------- Game Board */
+.table {
+    height: 100%;
+    border: 2px solid #33393F;
+    border-radius: 15px;
+    box-shadow: 2px 5px 20px #cccbcb;
+    background-color: #80B59B;
+}
+
+.game-area h1 {
+    font-size: 2rem;
+    height: 37px;
 }
 
 /* -------------------- Animation green winner */
