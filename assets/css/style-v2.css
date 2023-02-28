@@ -1,3 +1,6 @@
+
+
+
 /* --------- Logos */
 .fa-user-astronaut {
     font-size: 3rem;
@@ -50,3 +53,15 @@ button {
     border: none;
     background-color: transparent;
 }
+
+/* -------------------- Animation green winner */
+@keyframes fade-inout {
+    0% { opacity: 0; background-color:  #80B59B;}
+    100% { opacity: 1;}
+}
+
+.winner-animation {
+    animation: fade-inout 1s;
+    
+    
+}/* End of animation area */
