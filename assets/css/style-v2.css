@@ -1,3 +1,52 @@
-footer {
-    position: fixed;
+/* --------- Logos */
+.fa-user-astronaut {
+    font-size: 3rem;
+}
+
+.fa-robot {
+    font-size: 3rem;
+}
+
+.fa-meteor {
+    font-size: 3rem;
+    color: wheat;
+}
+
+.fa-meteor:hover {
+    cursor: pointer;
+    color: tomato;
+    transform: rotate(10deg);
+    visibility: visible;
+}
+
+.fa-paper-plane {
+    font-size: 3rem;
+    color: wheat;
+}
+
+.fa-paper-plane:hover {
+    cursor: pointer;
+    color: tomato;
+    transform: rotate(-20deg);
+}
+
+.fa-fan {
+    font-size: 3rem;
+    color: wheat;
+}
+
+.fa-fan:hover {
+    cursor: pointer;
+    color: tomato;
+    transform: rotate(20deg);
+}
+
+.fa-question-circle {
+    font-size: 3rem;
+    color: wheat;
+}
+
+button {
+    border: none;
+    background-color: transparent;
 }
