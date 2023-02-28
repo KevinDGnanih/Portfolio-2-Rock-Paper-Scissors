@@ -18,7 +18,8 @@
     <!--Heading page-->
     <div class="heading-page">
         <h1 class="text-center"><i class="fas fa-meteor"></i> ROCK, <i id="paper" class="fas fa-paper-plane"></i> PAPER,
-            <i id="scissors" class="fas fa-fan"></i> SCISSORS</h1>
+            <i id="scissors" class="fas fa-fan"></i> SCISSORS
+        </h1>
         <p class="text-center"><a id="rule-btn" target="_blank"
                 href="https://en.wikipedia.org/wiki/Rock_paper_scissors#:~:text=A%20player%20who%20decides%20to,%22scissors%20cuts%20paper%22).">RULES</a>
         </p>
@@ -39,8 +40,7 @@
         </div>
     </div>
     <div class="justify-content-center text-center">
-        <button class="btn btn-lg border col-4" aria-label="Reset button"
-            id="reset-btn">RESET</button>
+        <button class="btn btn-lg border col-4" aria-label="Reset button" id="reset-btn">RESET</button>
     </div>
     <!--Game area-->
     <div class="container-fluid">
@@ -49,17 +49,20 @@
                 <div class="card">
                     <div class="card-body">
                         <h1 id="myc-h1" class="card-title text-center">Make you choice:</h1>
-                        
+                        <h2 id="result-msg"></h2>
+
                         <div class="row">
                             <!--User choice area-->
                             <div class="col-4 text-center user-choice-area" id="user-choice-area">
                                 <button id="btn-rock" aria-label="Rock button" data-choice="Rock" class="choice rock">
                                     <i id="rock" class="fas fa-meteor"></i>
                                 </button>
-                                <button id="btn-paper" aria-label="Paper button" data-choice="Paper" class="choice paper">
+                                <button id="btn-paper" aria-label="Paper button" data-choice="Paper"
+                                    class="choice paper">
                                     <i id="paper" class="fas fa-paper-plane"></i>
                                 </button>
-                                <button id="btn-scissors" aria-label="Scissors button" data-choice="Scissors" class="choice scissors">
+                                <button id="btn-scissors" aria-label="Scissors button" data-choice="Scissors"
+                                    class="choice scissors">
                                     <i id="scissors" class="fas fa-fan"></i>
                                 </button>
                             </div>
