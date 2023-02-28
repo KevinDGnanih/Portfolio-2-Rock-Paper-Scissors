@@ -1,4 +1,50 @@
+#reset-btn {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: tomato;
+    color: black;
+    font-weight: 700;
+    padding: 8px;
+    box-shadow: 2px 5px 20px #cccbcb;
+}
 
+#reset-btn:hover {
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: white;
+    color: tomato;
+    font-weight: 700;
+    padding: 8px;
+    box-shadow: 2px 5px 20px #cccbcb;
+}
+
+/* --------- Score Area */
+
+.user-info, .computer-info {
+    display: inline-block;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    padding: 15px;
+}
+
+.computer-info {
+
+    border-radius: 15px;
+    border-bottom: 2px solid slateblue;
+    box-shadow: 2px 5px 10px #cccbcb;
+}
+
+.user-info {
+    
+    border-bottom: 2px solid tomato;
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px #cccbcb;
+}
+
+.game-board {
+    margin-top: 90px !important;
+    margin-bottom: 60px
+}
 
 
 /* --------- Logos */
