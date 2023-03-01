@@ -46,20 +46,32 @@
 .computer-info {
 
     border-radius: 15px;
-    border-bottom: 2px solid slateblue;
+    border-bottom: 2px solid slateblue !important;
     box-shadow: 2px 5px 10px #cccbcb;
 }
 
 .user-info {
     
-    border-bottom: 2px solid tomato;
+    border-bottom: 2px solid tomato !important;
     border-radius: 15px;
     box-shadow: 2px 5px 10px #cccbcb;
 }
 
 .game-board {
-    margin-top: 90px !important;
+    margin-top: 2rem !important;
     margin-bottom: 60px
+}
+
+.green {
+    background-color: #80B59B;
+}
+
+.msg-center {
+    height: 20rem !important;
+}
+
+h1, h2 {
+    font-size: 1.5rem !important;
 }
 
 
@@ -120,19 +132,6 @@ button {
     background-color: transparent;
 }
 
-/* -------------------- Game Board */
-.table {
-    height: 100%;
-    border: 2px solid #33393F;
-    border-radius: 15px;
-    box-shadow: 2px 5px 20px #cccbcb;
-    background-color: #80B59B;
-}
-
-.game-area h1 {
-    font-size: 2rem;
-    height: 37px;
-}
 
 /* -------------------- Animation green winner */
 @keyframes fade-inout {

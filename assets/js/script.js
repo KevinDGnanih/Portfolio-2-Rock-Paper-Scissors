@@ -129,5 +129,5 @@ document.getElementById("reset-btn").onclick = function reset() {
     result.innerHTML = "";
     result.classList.remove('win-color', 'lose-color', 'draw-color');
     computerSignsDisplay.innerHTML = `
-    <i class="fas fa-question-circle"></i>`;       
+    <i class="fas fa-question-circle signs"></i>`;       
 };
